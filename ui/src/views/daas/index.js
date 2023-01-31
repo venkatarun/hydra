@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Card, Button } from 'react-bootstrap';
+import { Link} from 'react-router-dom';
 
 const DaaS = () => {
     return (
@@ -7,8 +8,8 @@ const DaaS = () => {
             <Row>
                 <Col md={6} xl={8}><h4 className="mb-4">Dashboard As A Service (DaaS)</h4></Col>
                 <Col md={6} xl={4}>
-                    <Button variant="primary" className="text-capitalize">
-                        Create
+                    <Button variant="primary" className="text-capitalize" style={{ float: 'right' }}>
+                        <Link to={"/app/daas/create"}> Create</Link>
                     </Button>
                 </Col>
             </Row>

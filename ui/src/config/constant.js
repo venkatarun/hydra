@@ -1,6 +1,6 @@
 export const BASENAME = ''; // don't add '/' at end off BASENAME
 export const BASE_URL = '/app/dashboard';
-export const BASE_TITLE = ' | Datta Able Premium React Hooks + Redux Admin Template';
+export const BASE_TITLE = ' | ';
 
 export const CONFIG = {
   layout: 'vertical', // vertical, horizontal
@@ -24,13 +24,4 @@ export const CONFIG = {
   configBlock: true,
   layout6Background: 'linear-gradient(to right, #A445B2 0%, #D41872 52%, #FF0066 100%)', // used only for pre-layout = layout-6
   layout6BackSize: '', // 'auto' - for background pattern, 'cover' - for background images & used only for pre-layout = layout-6
-  firebase: {
-    apiKey: 'AIzaSasyAlA-jy7dpv4SxGD_6Ka1i5l6YOJANVyJU',
-    authDomain: 'datta-able-react-hook.firebaseapp.com',
-    projectId: 'datta-able-react-hook',
-    storageBucket: 'datta-able-react-hook.appspot.com',
-    messagingSenderId: '194472541027',
-    appId: '1:194472541027:web:462efb7a5035da914ef156',
-    measurementId: 'G-M4PFJDM1EZ'
-  }
 };

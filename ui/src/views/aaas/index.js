@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Card, Button } from 'react-bootstrap';
+import { Link} from 'react-router-dom';
 
 const RuntimeApi = () => {
     return (
@@ -7,8 +8,8 @@ const RuntimeApi = () => {
             <Row>
                 <Col md={6} xl={8}><h4 className="mb-4">AaaS</h4></Col>
                 <Col md={6} xl={4}>
-                    <Button variant="primary" className="text-capitalize">
-                        Create
+                    <Button variant="primary" className="text-capitalize" style={{ float: 'right' }}>
+                        <Link to={"/app/runtimeapi/create"}> Create</Link>
                     </Button>
                 </Col>
             </Row>

@@ -9,7 +9,7 @@ import ReactFlow, {
 } from "reactflow";
 import "./css/style.css";
 import ButtonEdge from './ButtonEdge.js';
-import Sidebar from './sideBar';
+
 
 let id = 0;
 const getId = () => `dndnode_${id++}`;
@@ -126,7 +126,6 @@ const DnDFlow = () => {
             <Background />
           </ReactFlow>
         </div>
-        <Sidebar />
       </ReactFlowProvider>
     </div>
   );

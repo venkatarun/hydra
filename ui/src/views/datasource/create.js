@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Form, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Create = () => {
     return (
@@ -24,27 +25,8 @@ const Create = () => {
                       <Form.Check type="checkbox" label="Check me out" />
                     </Form.Group>
                     <Button variant="primary">Submit</Button>
+                    <Button variant="light"><Link to={"/app/datasource"}> Cancel</Link></Button>
                   </Form>
-                </Col>
-                <Col md={6}>
-                  <Form.Group controlId="exampleForm.ControlInput1">
-                    <Form.Label>Text</Form.Label>
-                    <Form.Control type="email" placeholder="Text" />
-                  </Form.Group>
-                  <Form.Group controlId="exampleForm.ControlSelect1">
-                    <Form.Label>Example select</Form.Label>
-                    <Form.Control as="select">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </Form.Control>
-                  </Form.Group>
-                  <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Example textarea</Form.Label>
-                    <Form.Control as="textarea" rows="3" />
-                  </Form.Group>
                 </Col>
             </Row>
         </React.Fragment>

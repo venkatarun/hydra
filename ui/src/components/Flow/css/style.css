@@ -325,7 +325,7 @@
 }
 
 .dndflow aside {
-  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
   padding: 15px 10px;
   font-size: 12px;
   background: #fcfcfc;
